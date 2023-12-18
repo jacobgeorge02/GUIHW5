@@ -1,3 +1,18 @@
+/*
+File: javascript.js
+GUI Assignment: HW5
+Jacob George, UMass Lowell Computer Science,
+jacob_george@student.uml.edu
+Copyright (c) 2023 by Jacob George. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JG on December 17th, 9:42 PM
+Sources: 
+Scrabble_Pieces_AssociativeArray_Jesse.js - created by Jesse M. Heines
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+Class Examples
+*/
+
 // used this algorithm to reference values
 var ScrabbleTiles = [] ;
 ScrabbleTiles["A"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9  } ;
