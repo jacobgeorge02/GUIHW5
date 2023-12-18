@@ -1,0 +1,10 @@
+.rack {
+    display: flex; /* This will align tiles in a row */
+    margin: 0 auto; /* This will attempt to center the rack */
+    width: 300px;
+    height: 100px;
+}
+
+
+
+

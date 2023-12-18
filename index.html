@@ -1,0 +1,42 @@
+<!--
+File: index.html
+GUI Assignment: HW5
+Jacob George, UMass Lowell Computer Science,
+jacob_george@student.uml.edu
+Copyright (c) 2023 by Jacob George. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JG on December 17th, 9:42 PM
+Sources: 
+Scrabble_Pieces_AssociativeArray_Jesse.js - created by Jesse M. Heines
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+Class Examples
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head> <!-- Head contains the title & script sources -->
+    <meta charset="utf-8">
+    <title>Scrabble Row</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/javascript.js"></script>
+</head>
+
+    <body> <!-- Body contains the ids and the images of all the elements I want to use for the page-->
+        <div id="Scrabble_Rack" class="rack"> <!-- Named the class rack, will make the rack appear on the page-->
+            <img src="images/scrabble-tile-holder-406774_640.png" alt="Rack" class="rack-image">
+        </div>
+
+        <div id="Scrabble-Row" class="scrabble-row"> <!-- named the class scrabble-row, will make thesingle row appear on the page-->
+            <div id="Row" class="droppable square">
+                <img src="images/Scrabble_Board_OneLine.png" alt="Normal Square">
+        </div>
+
+        <div id=Score-Display>Score: <span id="score"> </span></div> <!-- wanted to implement a score counter for the different words created -->
+
+        <script src="js/javascript.js"></script> <!--linking the javascript together -->
+    </body>
+</html>
